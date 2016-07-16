@@ -1,122 +1,74 @@
-.starryBackground  {
-    background-image: url("http://a1star.com/images/anim-bstars.gif");
-    background-color: #cccccc;
-}
 
-.FontGrey {
-
-  color: grey;
-
-}
 
 body{background-color: #365937;
-font-family: 'BioRhyme', serif;
-color: #C9E4CA;
-font-size: 200%;}
+  font-family: 'BioRhyme', serif;
+  color: #C9E4CA;
+  font-size: 200%;}
 
-a{color:#86BA87;}
+  a{color:#86BA87;}
 
-a:hover{color: white;}
+  a:hover{color: white;}
 
-.div-style{
-  background-color: #5a5c51;
-}
+  .div-style{
+    background-color: #5a5c51;
+  }
 
-.ol-custom{
-  list-style-type: none;
-}
+  .ol-custom{
+    list-style-type: none;
+  }
 
-#menu {
-    padding: 0;
+
+  .center {
+
     text-align: center;
-    position: relative;
-}
-
-#menu li {
-    display: inline;
-
-}
-
-#menu li a {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: 5px dotted red;
-    border-radius: 4px 4px 0 0;
-}
-
-#menu li a:hover {
-    background-color: orange;
-}
-
-.center {
-
-  text-align: center;
-}
-/*
-.assignmentList{
-
-margin-left: 475px;
- background-color: Red;
-  position: absolute;;
-  text-align: center;
-  width: 360px;
-
-}
-*/
-
-.assign{
-background-color: black;
-width: 20%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-
-}
+  }
 
 
-.fade
-{
-        opacity:0.5;
-}
-.fade:hover
-{
-        opacity:1;
-}
+  .fade
+  {
+    opacity:0.5;
+  }
+  .fade:hover
+  {
+    opacity:1;
+  }
 
-.colorchange:hover
-{
-        background:#53a7ea;
-}
+  .colorchange{
+    transition: background-color 3s;
+  }
 
-.shrink{
+  .colorchange:hover
+  {
+    background-color: #3A633C;
+  }
 
-}
+  .shrink{
 
-.shrink:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-}
+  }
 
-
-img{
-
-  width: 400px;
-  transition: 3s;
-}
-
-img:hover{
-
-  width: 300px;
-}
+  .shrink:hover
+  {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
 
 
+  .row {
+    overflow: hidden;
+  }
 
-  span:hover {
-    font-size: 60px;
-      background-color: yellow;
+  [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+
+  .circle{
+
+    transition: border-radius 1s;
+  }
+
+  .circle:hover
+  {
+    border-radius:50%;
   }
