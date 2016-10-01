@@ -3,7 +3,7 @@
 body{
   background-color: #696969;
   font-family: 'Titillium Web', sans-serif;
-  }
+}
 
 .mainDiv{
   background-color: rgba(20, 20, 20, 0.9);
@@ -11,4 +11,10 @@ body{
 }
 
 h2{color:silver;
-text-align: center;}
+  text-align: center;}
+
+  #drinks-container
+  {
+    height:auto;
+    overflow:auto;
+    color: gray;}
