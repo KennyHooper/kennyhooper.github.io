@@ -17,6 +17,8 @@ double amount = 200000.0; // set loan amount
 double years = 30 * 12; // set length of loan
 double rate = .0575 / 12; // set interest rate
 double monthlyPayment = amount * rate / (1.0 - Math.pow(rate + 1, - years)); 
+
+
 // calculates monthly payment using formula
   
     System.out.println("The monthly payment is  $" + two.format(monthlyPayment));
